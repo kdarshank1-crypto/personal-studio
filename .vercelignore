@@ -1,0 +1,7 @@
+data/
+qa/
+node_modules/
+.env*
+.git/
+tests/
+scripts/import-history.cjs
