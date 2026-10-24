@@ -45,4 +45,3 @@ async function main(){
   console.log(JSON.stringify(report,null,2));
 }
 main().catch(error=>{console.error(error.message);process.exitCode=1;});
-

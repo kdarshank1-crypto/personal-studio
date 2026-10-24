@@ -136,4 +136,3 @@ const { chromium } = require(process.env.STUDIO_PLAYWRIGHT || 'playwright');
     await fs.rm(resolved,{recursive:true,force:true});
   }
 })().catch(error=>{console.error(error);process.exitCode=1;});
-

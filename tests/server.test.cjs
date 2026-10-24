@@ -69,4 +69,3 @@ test('refuses startup on a corrupt saved file and preserves it',async t=>{
   await assert.rejects(createApp({dataDir:f.dataDir}),/preserved/);
   assert.equal(await fs.readFile(path.join(f.dataDir,'workspace.json'),'utf8'),'not-json');
 });
-

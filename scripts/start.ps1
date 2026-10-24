@@ -25,4 +25,3 @@ if (-not $studioReady) {
 if (-not $studioReady) { throw 'Personal Studio could not start. Check data\server-error.log or run npm start from this folder for details.' }
 Start-Process "$studioUrl"
 Write-Output "Personal Studio is open at $studioUrl"
-
